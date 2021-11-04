@@ -1,2 +1,4 @@
 # translatable-app
-App to implement multiple languages feature in compose apps
+A simple app to implement multiple languages feature in compose apps
+
+## App
