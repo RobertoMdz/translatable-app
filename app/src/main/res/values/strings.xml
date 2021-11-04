@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Translatable App</string>
+    <string name="hello_world">Hello world</string>
+    <string name="translate">This text should be translated</string>
 </resources>

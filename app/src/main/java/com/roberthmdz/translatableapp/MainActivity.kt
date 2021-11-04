@@ -9,6 +9,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.roberthmdz.translatableapp.ui.theme.TranslatableAppTheme
@@ -24,11 +25,9 @@ class MainActivity : ComponentActivity() {
                       .padding(16.dp)
               ) {
 
-                  Text(text = "Hello world")
+                  Text(text = stringResource(id = R.string.hello_world))
                   Spacer(modifier = Modifier.height(16.dp))
-                  Text(text = "This text should be translated")
-                  
-
+                  Text(text = stringResource(id = R.string.translate))
 
               }
             }
